@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/list_layout">
+
+    <TextView
+        android:layout_width="36dp"
+
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        tools:text="7.2"
+        tools:textColor="@color/black"
+        android:background="@drawable/magnitude_circle"
+        android:padding="2dp"
+        />
+<!--    android:background="@drawable/magnitude_circle"-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        tools:text="San Fransisco"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_weight="1"
+        android:id="@+id/textView3"
+        android:layout_height="0dp"
+        tools:text="Feb 2, 2016"
+        android:padding="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/textView4"
+        android:layout_height="0dp"
+        tools:text="4:00 AM"
+        android:padding="8dp"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
